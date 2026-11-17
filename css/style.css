@@ -15,9 +15,11 @@ h2 {
   font-size: 30px;
   font-style: italic;
 }
+h3 {
+  font-size: 20px;
+}
 p {
   font-size: 15px;
-  font-weight: bold;
 }
 .paragraph:first-child {
   margin-top: 0;
@@ -43,10 +45,10 @@ p {
 }
 .p-grouper {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 .paragraph {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 .content {
   padding: 80px 50px;
@@ -54,6 +56,48 @@ p {
 .future-goal-img {
   height: 40px;
   width: 40px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.explaination {
+  margin-left: 170px;
+}
+.explaination > p {
+  color: #494949;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+}
+.slide-explaination {
+  margin-top: 15px;
+}
+.vertical > h3 {
+  font-size: 18px;
+}
+.slider-img {
+  width: 400px;
+  height: 250px;
+}
+.vertical {
+  flex-direction: column;
+}
+.topic {
+  display: flex;
+  align-items: center;
+}
+.topic > h3 {
+  margin-left: 5px;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.mwbox {
+  width: 400px;
 }
 
 /* header */
@@ -98,9 +142,11 @@ main {
   width: 440px;
   z-index: 0;
 }
+/*** paragraph container ***/
 #paragraph-container {
   margin-left: 300px;
 }
+/**** role ****/
 #role {
   display: flex;
   align-items: center;
@@ -108,7 +154,14 @@ main {
 #role > section {
   margin-left: 80px;
 }
-/** future goals **/
+/**** experience ****/
+.side-img {
+  position: absolute;
+  height: 100px;
+  width: 150px;
+}
+
+/**** future goals ****/
 #future-goals-list {
   list-style-position: inside;
   margin: 10px 0;
@@ -121,10 +174,51 @@ main {
 #future-goals-list > li > p {
   margin-left: 20px;
 }
+
 /* Perfomances */
 #PERFORMANCES {
   background-color: beige;
 }
 #PERFORMANCES > h2 {
+  text-align: center;
+}
+.slide-content {
+  margin-top: 11px;
+}
+
+/** certificate **/
+#CERTIFICATES > h2 {
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background-color: blanchedalmond;
+  padding: 80px 0;
+  font-family: monospace;
+}
+footer > h2 {
+  text-align: center;
+}
+#contacts-grouper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px;
+}
+.contact-card {
+  box-sizing: border-box;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 400px;
+  padding: 20px;
+}
+.contact-img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+.contact-text {
   text-align: center;
 }
