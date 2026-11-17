@@ -2,7 +2,7 @@ const pGrouper = document.querySelector("#p-grouper");
 const experience = document.querySelector("#experience");
 const strentghs = document.querySelector("#strentghs");
 
-fetch("../data/role.json")
+fetch("./data/role.json")
   .then((response) => response.json())
   .then((values) =>
     values.forEach((value) => {
