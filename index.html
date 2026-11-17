@@ -9,32 +9,40 @@
   <body>
     <header>
       <section id="top">
-        <p>PORTFOLIO's Paweenwat Kunlan</p>
+        <p class="topright">PORTFOLIO's Paweenwat Kunlan</p>
       </section>
-      <section id="greetings">
-        <h1>WELCOME to my Portfolio</h1>
+      <section id="greetings" class="center">
+        <h1>WELCOME to my PORTFOLIO</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
       </section>
-      <section id="nav">
+      <section id="nav" class="bottom">
         <ul>
-          <li><a href="#">ABOUT ME</a></li>
-          <li><a href="#">PERFORMANCES</a></li>
-          <li><a href="#">CERTIFICATES</a></li>
+          <li><a href="#ABOUTME">ABOUT ME</a></li>
+          <li><a href="#PERFORMANCES">PERFORMANCES</a></li>
+          <li><a href="#CERTIFICATES">CERTIFICATES</a></li>
         </ul>
       </section>
     </header>
     <main>
-      <section id="ABOUTME">
-        <section>
-          <img src="" alt="" />
-          <p>Paweewat Kunlan</p>
+      <section id="ABOUTME" class="content">
+        <section id="profile">
+          <img
+            src="https://cdn.pixabay.com/photo/2015/01/27/09/58/man-613601_1280.jpg"
+            alt="Picture of myself"
+            id="profile-picture"
+          />
+          <p id="profile-name">Paweewat Kunlan</p>
         </section>
-        <section>
-          <section id="role">
+        <section id="paragraph-container">
+          <section id="role" class="paragraph">
             <h2>MY ROLE</h2>
-            <p>Programmer, Game Developer, Backend Developer</p>
+            <section class="p-grouper">
+              <p>Programmer</p>
+              <p>Game Developer</p>
+              <p>Backend Developer</p>
+            </section>
           </section>
-          <section id="experience">
+          <section id="experience" class="paragraph">
             <h2>EXPERIENCE</h2>
             <section class="box">
               <img src="" alt="" />
@@ -56,8 +64,8 @@
               </p>
             </section>
           </section>
-          <section id="strentghs">
-            <h2>STRENTCHS</h2>
+          <section id="strentghs" class="paragraph">
+            <h2>STRENTGHS</h2>
             <section class="box">
               <img src="" alt="" />
               <h3>การทำงานเป็นทีม</h3>
@@ -67,26 +75,47 @@
               </p>
             </section>
           </section>
-          <section id="futureGoals">
+          <section id="futureGoals" class="paragraph">
             <h2>FUTURE GOALS</h2>
-            <ul>
+            <ul id="future-goals-list">
               <li>
-                ศึกษาที่วิศวกรรมคอมพิวเตอร์
-                สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (สจล.)
+                <img
+                  src="https://www.it.kmitl.ac.th/~sirion/img/kmitl_logo.png"
+                  alt="ladkrabangUniversityLogo"
+                  class="future-goal-img"
+                />
+                <p>
+                  ศึกษาที่วิศวกรรมคอมพิวเตอร์
+                  สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (สจล.)
+                </p>
               </li>
               <li>
-                กำลังมีแผนทำธุรกิจด้าน AI ร่วมกับเพื่อนๆ อีก 3 คน
-                และจะไปนำเสนอที่งาน SPU AI HACKATHON 2026
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHuH9cAOwRRuf8YdHzPiuWlzJatUeOmeUU0o9-UUb8ow&s=10"
+                  alt="SPU-logo"
+                  class="future-goal-img"
+                />
+                <p>
+                  กำลังมีแผนทำธุรกิจด้าน AI ร่วมกับเพื่อนๆ อีก 3 คน
+                  และจะไปนำเสนอที่งาน SPU AI HACKATHON 2026
+                </p>
               </li>
               <li>
-                พัฒนาเกม LHONG SIAM - ROBLOX
-                ให้ดีขึ้นและโปรโมตให้มีผู้เล่นจำนวนมากในอนาคต
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTurgzpa1W3S1A7GjotOGQm9f1HnoY_Pi89U4E25cjVIK9DHlGy4wXPBaU&s=10"
+                  alt="roblox-studio-logo"
+                  class="future-goal-img"
+                />
+                <p>
+                  พัฒนาเกม LHONG SIAM - ROBLOX
+                  ให้ดีขึ้นและโปรโมตให้มีผู้เล่นจำนวนมากในอนาคต
+                </p>
               </li>
             </ul>
           </section>
         </section>
       </section>
-      <section id="PERFORMANCES">
+      <section id="PERFORMANCES" class="content">
         <h2>PERFORMANCES</h2>
         <section class="slider">
           <section class="vertical box">
@@ -114,7 +143,7 @@
           </section>
         </section>
       </section>
-      <section id="CERTIFICATES">
+      <section id="CERTIFICATES" class="content">
         <h2>CERTIFICATES</h2>
         <section class="slider">
           <section class="vertical box">
