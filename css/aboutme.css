@@ -8,6 +8,9 @@ a {
   text-decoration: none;
   color: black;
 }
+h2 {
+  font-size: 30px;
+}
 
 /* classes */
 .bottom {
@@ -33,6 +36,9 @@ a {
   left: 16px;
   font-size: 20px;
 }
+.content {
+  padding: 80px 0;
+}
 
 /* header */
 header {
@@ -48,4 +54,88 @@ header {
   list-style-type: none;
   gap: 100px;
   font-size: 20px;
+}
+
+/* about me */
+#aboutme {
+  box-sizing: border-box;
+}
+#profile {
+  display: flex;
+  font-family: fantasy;
+  background-color: beige;
+  height: 500px;
+  align-items: center;
+}
+
+#profile-picture {
+  position: absolute;
+  left: 200px;
+  top: 850px;
+  width: 300px;
+  border-radius: 20px;
+}
+#profile-text > p {
+  font-size: 30px;
+  margin-left: 800px;
+}
+
+/* more about me */
+#moreaboutme {
+  background-color: azure;
+}
+#education {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.education-card {
+  display: flex;
+  padding-left: 200px;
+  align-items: center;
+}
+.edu-text {
+  padding: 25px 0px 25px 50px;
+}
+.edu-img {
+  width: 150px;
+}
+
+/* favorite game */
+#favoriteGames {
+  background-color: aliceblue;
+}
+#favoriteGames > h2 {
+  text-align: center;
+}
+#games-grouper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.game-container {
+  width: 300px;
+  background-color: beige;
+  box-sizing: border-box;
+  padding: 25px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.game-container > h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+
+  font-family: fantasy;
+  font-weight: lighter;
+}
+.game-img {
+  width: 80%;
+  display: block;
+  margin: auto;
 }
