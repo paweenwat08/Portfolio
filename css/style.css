@@ -43,7 +43,7 @@ p {
   right: 16px;
   font-size: 20px;
 }
-.p-grouper {
+#p-grouper {
   display: flex;
   gap: 50px;
 }
