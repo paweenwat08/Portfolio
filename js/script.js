@@ -22,7 +22,7 @@ fetch("./data/role.json")
       pGrouper.appendChild(section);
     }),
   );
-fetch("../data/experience.json")
+fetch("./data/experience.json")
   .then((response) => response.json())
   .then((values) =>
     values.forEach((value) => {
@@ -61,7 +61,7 @@ fetch("../data/experience.json")
       experience.appendChild(section);
     }),
   );
-fetch("../data/strentghs.json")
+fetch("./data/strentghs.json")
   .then((response) => response.json())
   .then((values) =>
     values.forEach((value) => {
